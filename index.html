@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="hero is-primary is-bold is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-8-tablet is-6-desktop is-6-widescreen">
+              <div class="box">
+
+                <div class="field is-grouped">
+                  <div class="control is-expanded">
+                    <input id="password" class="input is-size-4 is-static has-text-centered" type="text" name="password" readonly>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="field">
+                  <label class="label">Characters Long</label>
+                  <input id="charlong" class="input" type="text" value="12">
+                </div>
+                <div class="field">
+                  <label class="checkbox">
+                    <input id="lowercase" type="checkbox" name="lower"> Lowercase
+                  </label>
+                </div>
+
+                <div class="field">
+                  <label class="checkbox">
+                    <input id="uppercase" type="checkbox" name="upper"> Uppercase
+                  </label>
+                </div>
+
+                <div class="field">
+                  <label class="checkbox">
+                    <input id="numbers" type="checkbox" name="numbers"> Numbers
+                  </label>
+                </div>
+
+                <div class="field">
+                  <label class="checkbox">
+                    <input id="symbols" type="checkbox" name="symbols"> Symbols
+                  </label>
+                </div>
+
+                <div class="field is-grouped">
+                  <div class="control is-expanded">
+                    <button id="generator" class="button is-dark is-outlined is-fullwidth">Generate Password</button>
+                  </div>
+                  <div class="control">
+                    <button id="clipboard" class="button is-static">
+                      <span class="icon"><i class="fas fa-clipboard"></i></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

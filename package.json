@@ -1,0 +1,14 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "A random password generator created using JavaScript and Bulma CSS, inspired by Traversy Media and Florin Pop",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "herokunt",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.5"
+  }
+}
